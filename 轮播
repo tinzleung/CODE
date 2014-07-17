@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style>
+.bgbg { width:990px; background-image:url(ok_03.jpg);} 
+/*首屏大轮播*/
+.ox-new-big{
+height:500px;
+position:absolute;
+width:500px;
+}
+.ox-new-big .big-con{
+height:500px;
+margin-left:-485px;
+margin-top:-10px;
+overflow:hidden;
+width:950px;
+}
+.ox-new-big .big-con li{
+height:500px;
+width:950px;
+}
+.ox-new-big .big-nav{
+bottom:40px;
+height:12px;
+left:50%;
+margin-left:-30px;
+position:absolute;
+width:100px;
+z-index:10;
+}
+.ox-new-big .big-nav li{
+float:left;
+height:12px;
+margin-right:10px;
+position:relative;
+width:12px;
+}
+.ox-new-big .big-nav li .normal{
+display:block;
+height:8px;
+margin-top:2px;
+width:7px;
+}
+.ox-new-big .big-nav li .hover{
+display:none;
+left:-2px;
+position:absolute;
+top:0;
+}
+.ox-new-big .big-nav li .normal:hover .hover,.ox-new-big .big-nav .ks-active .hover{
+display:block;
+height:12px;
+width:12px;
+}
+.ox-new-big .big-prev,.ox-new-big .big-next{
+cursor:pointer;
+display:block;
+height:77px;
+margin-top:-36px;
+position:absolute;
+top:50%;
+width:41px;
+z-index:9;
+}
+.ox-new-big .big-prev{
+left:-100px;
+}
+.ox-new-big .big-next{
+right:-100px;
+}
+</style>
+<body>
+<div class="bgbg">
+<div class="J_TWidget  ox-new-big" data-widget-config="{'effect':'fade', 'autoplay':true, 'prevBtnCls':'big-prev', 'nextBtnCls':'big-next', 'navCls':'big-nav','contentCls':'big-con','duration':0.1,'interval':4}" data-widget-type="Carousel">
+	<ul class="big-con">
+		<li><img src="1.png" alt=" 1"/></li>
+		<li><img src="2.png" alt=" 2"/></li>
+		<li><img src="1.png" alt=" 3"/></li>
+        <li><img src="2.png" alt=" 3"/></li>
+        <li><img src="1.png" alt=" 3"/></li>
+	</ul>
+	<ul class="big-nav">
+		<li class="ks-active">
+			<a><span class="normal"> <img height="8" src="http://img01.taobaocdn.com/imgextra/i1/2094119427/TB2XLqDXVXXXXXzXXXXXXXXXXXX_!!2094119427.png" width="7" /></span><span class="hover"> <img height="12" src="http://img02.taobaocdn.com/imgextra/i2/2094119427/TB2jQyCXVXXXXbqXXXXXXXXXXXX_!!2094119427.png" width="12" /></span></a></li>
+		<li>
+			<a><span class="normal"> <img height="8" src="http://img01.taobaocdn.com/imgextra/i1/2094119427/TB2XLqDXVXXXXXzXXXXXXXXXXXX_!!2094119427.png" width="7" /></span><span class="hover"> <img height="12" src="http://img03.taobaocdn.com/imgextra/i3/2094119427/TB2WuKCXVXXXXcXXXXXXXXXXXXX_!!2094119427.png" width="12" /></span></a></li>
+		<li>
+			<a><span class="normal"> <img height="8" src="http://img01.taobaocdn.com/imgextra/i1/2094119427/TB2XLqDXVXXXXXzXXXXXXXXXXXX_!!2094119427.png" width="7" /></span><span class="hover"> <img height="12" src="http://img04.taobaocdn.com/imgextra/i4/2094119427/TB2_raDXVXXXXXPXXXXXXXXXXXX_!!2094119427.png" width="12" /></span></a></li>
+        <li>
+			<a><span class="normal"> <img height="8" src="http://img01.taobaocdn.com/imgextra/i1/2094119427/TB2XLqDXVXXXXXzXXXXXXXXXXXX_!!2094119427.png" width="7" /></span><span class="hover"> <img height="12" src="http://img03.taobaocdn.com/imgextra/i3/2094119427/TB2G4yAXVXXXXaBXpXXXXXXXXXX_!!2094119427.png" width="12" /></span></a></li>
+        <li>
+			<a><span class="normal"> <img height="8" src="http://img01.taobaocdn.com/imgextra/i1/2094119427/TB2XLqDXVXXXXXzXXXXXXXXXXXX_!!2094119427.png" width="7" /></span><span class="hover"> <img height="12" src="http://img04.taobaocdn.com/imgextra/i4/2094119427/TB29x5BXVXXXXXxXpXXXXXXXXXX_!!2094119427.png" width="12" /></span></a></li>
+	</ul>
+	<span class="big-prev"><img height="77" src="http://img03.taobaocdn.com/imgextra/i3/2094119427/TB2AlGDXVXXXXavXXXXXXXXXXXX_!!2094119427.png" width="41" /></span> <span class="big-next"><img height="77" src="http://img01.taobaocdn.com/imgextra/i1/2094119427/TB22FmDXVXXXXaTXXXXXXXXXXXX_!!2094119427.png" width="41" /></span></div>
+    </div>
+<div style="width: 990px; height: 500px;">
+	&nbsp;</div>
+</body>
+</html>
